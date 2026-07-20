@@ -243,7 +243,7 @@ const TRANSLATIONS = {
         emailTitle: "Email",
         vatTitle: "Partita IVA",
         sdiTitle: "Codice SDI",
-        mapCaption: "Mappa: Via Guadicciolo 8, Castrocielo (FR) — inserire embed mappa reale in produzione."
+        mapLink: "Apri in Google Maps"
       }
     },
     footer: {
@@ -488,7 +488,7 @@ const TRANSLATIONS = {
         emailTitle: "Email",
         vatTitle: "VAT number",
         sdiTitle: "SDI code",
-        mapCaption: "Map: Via Guadicciolo 8, Castrocielo (FR) — add real map embed in production."
+        mapLink: "Open in Google Maps"
       }
     },
     footer: {

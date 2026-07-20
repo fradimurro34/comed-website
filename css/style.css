@@ -498,11 +498,23 @@ h3 { font-size: 1.25rem; font-weight: 700; }
 .info-row p, .info-row a { color: var(--color-gray-700); font-size: .92rem; }
 .info-row a:hover { color: var(--color-brand); }
 
-.map-placeholder {
-  margin-top: 28px;
-  height: 220px;
+.map-embed {
   border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--color-gray-200);
+  line-height: 0;
 }
+.map-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  font-weight: 600;
+  font-size: .92rem;
+  color: var(--color-brand);
+}
+.map-link svg { width: 18px; height: 18px; }
+.map-link:hover { color: var(--color-brand-dark); text-decoration: underline; }
 
 /* =========================================================
    FOOTER
