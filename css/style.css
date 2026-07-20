@@ -419,6 +419,23 @@ h3 { font-size: 1.25rem; font-weight: 700; }
   border: 1px solid var(--color-gray-200);
 }
 
+/* Vetrina del logo (sezione Chi siamo) */
+.logo-showcase {
+  background: linear-gradient(135deg, var(--color-gray-100), var(--color-gray-200));
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+  min-height: 420px;
+}
+.logo-showcase-img {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+}
+
 .two-col {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
