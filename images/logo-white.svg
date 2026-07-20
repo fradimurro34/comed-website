@@ -1,0 +1,6 @@
+<!-- Variante chiara del logo, per sfondi scuri (footer). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" role="img" aria-label="COMED S.r.l.">
+  <circle cx="28" cy="30" r="20" fill="none" stroke="#E69113" stroke-width="4"/>
+  <circle cx="28" cy="30" r="7" fill="#E69113"/>
+  <text x="62" y="39" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="800" letter-spacing="0.5" fill="#ffffff">COMED</text>
+</svg>
