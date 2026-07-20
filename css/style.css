@@ -411,6 +411,14 @@ h3 { font-size: 1.25rem; font-weight: 700; }
 }
 .img-placeholder svg { width: 48px; height: 48px; margin-bottom: 10px; color: var(--color-gray-300); }
 
+/* Illustrazioni tecniche originali (sostituiscono le foto non ancora disponibili) */
+.illustration {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-gray-200);
+}
+
 .two-col {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -490,11 +498,23 @@ h3 { font-size: 1.25rem; font-weight: 700; }
 .info-row p, .info-row a { color: var(--color-gray-700); font-size: .92rem; }
 .info-row a:hover { color: var(--color-brand); }
 
-.map-placeholder {
-  margin-top: 28px;
-  height: 220px;
+.map-embed {
   border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--color-gray-200);
+  line-height: 0;
 }
+.map-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  font-weight: 600;
+  font-size: .92rem;
+  color: var(--color-brand);
+}
+.map-link svg { width: 18px; height: 18px; }
+.map-link:hover { color: var(--color-brand-dark); text-decoration: underline; }
 
 /* =========================================================
    FOOTER

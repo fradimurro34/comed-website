@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" role="img" aria-labelledby="machTitle">
+  <title id="machTitle">Illustrazione stilizzata di una lavorazione di tornitura di precisione</title>
+  <defs>
+    <linearGradient id="machBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2F2F0"/>
+      <stop offset="100%" stop-color="#E8E8E6"/>
+    </linearGradient>
+    <pattern id="machGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#D6D6D3" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="320" rx="16" fill="url(#machBg)"/>
+  <rect width="600" height="320" rx="16" fill="url(#machGrid)"/>
+
+  <!-- lathe bed -->
+  <rect x="60" y="230" width="480" height="18" rx="4" fill="#1A1A1A"/>
+  <rect x="80" y="248" width="20" height="30" fill="#1A1A1A"/>
+  <rect x="500" y="248" width="20" height="30" fill="#1A1A1A"/>
+
+  <!-- chuck -->
+  <g stroke="#1A1A1A" stroke-width="4" fill="#FFFFFF">
+    <rect x="100" y="150" width="60" height="80" rx="6"/>
+    <circle cx="160" cy="190" r="34" fill="#E8E8E6"/>
+    <circle cx="160" cy="190" r="34" fill="none" stroke="#1A1A1A" stroke-width="4"/>
+    <circle cx="160" cy="190" r="10" fill="#1A1A1A" stroke="none"/>
+  </g>
+
+  <!-- workpiece (rotating shaft) -->
+  <g stroke="#1A1A1A" stroke-width="3" fill="#F5D9A8">
+    <rect x="160" y="172" width="220" height="36" />
+    <rect x="330" y="180" width="50" height="20" fill="#F5D9A8"/>
+  </g>
+  <!-- rotation arrows -->
+  <g stroke="#E69113" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M160 150a40 40 0 0 1 40-16" marker-end="url(#arrow)"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#E69113"/>
+    </marker>
+  </defs>
+
+  <!-- tailstock -->
+  <g stroke="#1A1A1A" stroke-width="4" fill="#FFFFFF">
+    <rect x="420" y="165" width="70" height="50" rx="6"/>
+    <rect x="400" y="184" width="24" height="12" fill="#1A1A1A" stroke="none"/>
+  </g>
+
+  <!-- cutting tool + chip curl -->
+  <g stroke="#1A1A1A" stroke-width="4" stroke-linecap="round">
+    <line x1="300" y1="230" x2="300" y2="210"/>
+    <line x1="300" y1="210" x2="330" y2="196"/>
+  </g>
+  <path d="M330 196c14 -4 18 10 6 16c-10 5 -4 16 8 12" fill="none" stroke="#E69113" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- precision callout -->
+  <g>
+    <line x1="200" y1="150" x2="200" y2="130" stroke="#5C5C5C" stroke-width="1.2"/>
+    <line x1="340" y1="150" x2="340" y2="130" stroke="#5C5C5C" stroke-width="1.2"/>
+    <line x1="200" y1="134" x2="340" y2="134" stroke="#5C5C5C" stroke-width="1.2"/>
+    <text x="270" y="124" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#5C5C5C">&#8960; 42.00 &#177;0.005</text>
+  </g>
+
+  <!-- ring motif accent -->
+  <g transform="translate(540,70)">
+    <circle r="34" fill="none" stroke="#E69113" stroke-width="3" opacity="0.9"/>
+    <circle r="16" fill="none" stroke="#E69113" stroke-width="3" opacity="0.6"/>
+  </g>
+</svg>

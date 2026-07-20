@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" role="img" aria-labelledby="facTitle">
+  <title id="facTitle">Illustrazione stilizzata di uno stabilimento industriale</title>
+  <defs>
+    <linearGradient id="facBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2F2F0"/>
+      <stop offset="100%" stop-color="#E8E8E6"/>
+    </linearGradient>
+    <pattern id="facGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#D6D6D3" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="440" rx="16" fill="url(#facBg)"/>
+  <rect width="600" height="440" rx="16" fill="url(#facGrid)"/>
+
+  <!-- ground line -->
+  <line x1="40" y1="360" x2="560" y2="360" stroke="#C7C7C3" stroke-width="2"/>
+
+  <!-- factory building -->
+  <g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <path d="M90 360V220l60-40 60 40v140" fill="#FFFFFF"/>
+    <path d="M210 360V180l50-34 50 34v180" fill="#FFFFFF"/>
+    <path d="M310 360V150l60-40 60 40v210" fill="#FFFFFF"/>
+    <path d="M430 360V210l50-34 50 34v150" fill="#FFFFFF"/>
+  </g>
+
+  <!-- sawtooth roof accents -->
+  <path d="M150 180 170 150 190 180" fill="none" stroke="#E69113" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M370 110 390 80 410 110" fill="none" stroke="#E69113" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- windows -->
+  <g fill="#E69113" opacity="0.85">
+    <rect x="105" y="250" width="22" height="30" rx="3"/>
+    <rect x="140" y="250" width="22" height="30" rx="3"/>
+    <rect x="228" y="220" width="22" height="30" rx="3"/>
+    <rect x="264" y="220" width="22" height="30" rx="3"/>
+    <rect x="330" y="200" width="22" height="30" rx="3"/>
+    <rect x="366" y="200" width="22" height="30" rx="3"/>
+    <rect x="448" y="250" width="22" height="30" rx="3"/>
+  </g>
+
+  <!-- entrance -->
+  <rect x="345" y="300" width="40" height="60" rx="2" fill="#1A1A1A"/>
+
+  <!-- precision ring motif (echoes the hero/bearing icon) -->
+  <g transform="translate(500,90)">
+    <circle r="46" fill="none" stroke="#E69113" stroke-width="3" opacity="0.9"/>
+    <circle r="24" fill="none" stroke="#E69113" stroke-width="3" opacity="0.6"/>
+    <circle r="5" fill="#E69113"/>
+  </g>
+
+  <!-- ISO 9001 badge -->
+  <g transform="translate(70,80)">
+    <rect width="150" height="40" rx="20" fill="#1A1A1A"/>
+    <text x="75" y="26" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="15" font-weight="700" fill="#E69113">ISO 9001</text>
+  </g>
+</svg>
