@@ -411,6 +411,14 @@ h3 { font-size: 1.25rem; font-weight: 700; }
 }
 .img-placeholder svg { width: 48px; height: 48px; margin-bottom: 10px; color: var(--color-gray-300); }
 
+/* Illustrazioni tecniche originali (sostituiscono le foto non ancora disponibili) */
+.illustration {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-gray-200);
+}
+
 .two-col {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
